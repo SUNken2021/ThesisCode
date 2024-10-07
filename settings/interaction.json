@@ -1,0 +1,16 @@
+{
+    "M":5,
+    "N":4,
+    "lambs":
+    {
+        "Max":5,
+        "Min":0.1
+    },
+    "n_lamb":100,
+    "n_time_evolution":32,
+    "time":
+    {
+        "step":0.1,
+        "length":128
+    }
+}

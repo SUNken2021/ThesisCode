@@ -1,0 +1,32 @@
+{
+    "batch_size": 8,
+    "data_type": "mix",
+    "train_type": "short",
+    "predict_length": 1,
+    "epoch_num": 100,
+    "save_epoch_num": 2,
+    "model": "CNN",
+    "DNN_set":
+    {
+        "input_size": 16,
+        "output_size": 1,
+        "acti_name": "relu",
+        "end_norm": "none",
+        "hidden_layer_num": 2,
+        "hidden_size": 32
+    },
+    "CNN_set":
+    {
+        "input_size": 16,
+        "output_size": 1,
+        "conv1_channels": 4,
+        "conv2_channels": 4,
+        "acti_name": "sigmoid",
+        "end_norm": "none"
+    },
+    "Transformer_set":
+    {
+        "kspace_size": 5,
+        "end_norm": "relu"
+    }
+}

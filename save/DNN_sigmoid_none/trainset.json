@@ -1,0 +1,27 @@
+{
+    "batch_size": 8,
+    "data_type": "mix",
+    "train_type": "short",
+    "predict_length": 1,
+    "epoch_num": 100,
+    "save_epoch_num": 2,
+    "model": "DNN",
+    "DNN_set":
+    {
+        "input_size": 16,
+        "output_size": 1,
+        "acti_name": "sigmoid",
+        "end_norm": "none",
+        "hidden_layer_num": 2,
+        "hidden_size": 32
+    },
+    "CNN_set":
+    {
+
+    },
+    "Transformer_set":
+    {
+        "kspace_size": 5,
+        "end_norm": "none"
+    }
+}

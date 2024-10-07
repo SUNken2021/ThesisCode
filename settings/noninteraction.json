@@ -1,0 +1,22 @@
+{
+    "dataformat":
+    {
+        "kspace_size":5,
+        "k_list_num":101,
+        "lattice_height":
+        {
+            "//": "此时,估算最大的能量本征值为pi**2/2*(kspace_size**2+V0_Max/2),从而可以推算频率",
+            "Max":16,
+            "Min":0
+        },
+        "Mass":1,
+        "hbar":1
+    },
+    "n_lattice_height":100,
+    "n_time_evolution":32,
+    "time":
+    {
+        "step":0.01,
+        "length":128
+    }
+}
